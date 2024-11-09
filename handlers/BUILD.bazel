@@ -3,7 +3,7 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "handlers",
     srcs = ["handler.go"],
-    importpath = "github.com/Shulammite-Aso/bazel-demo-app/handlers",
+    importpath = "github.com/dgiacomo/bazel-demo-app/handlers",
     visibility = ["//visibility:public"],
-    deps = ["//pkg/greetings"],
+    deps = ["@com_github_shulammite_aso_bazel_demo_app//pkg/greetings:go_default_library"],
 )
