@@ -1,0 +1,41 @@
+{
+  "files.associations": {
+  },
+  "go.goroot": "${workspaceFolder}/bazel-${workspaceFolderBasename}/external/go_sdk_darwin_arm64/",
+  "go.toolsEnvVars": {
+    "GOPACKAGESDRIVER": "${workspaceFolder}/tools/gopackagesdriver.sh"
+  },
+  "go.enableCodeLens": {
+    "runtest": false
+  },
+  "gopls": {
+    "verboseOutput": true,
+    "build.directoryFilters": [
+      "-bazel-bin",
+      "-bazel-out",
+      "-bazel-testlogs",
+      "-bazel-mux"
+    ],
+    "formatting.gofumpt": true,
+    "formatting.local": "github.com/dgiacomo/bazel-demo-app",
+    "ui.completion.usePlaceholders": true,
+    "ui.semanticTokens": true,
+    "ui.codelenses": {
+      "gc_details": false,
+      "regenerate_cgo": false,
+      "generate": false,
+      "test": false,
+      "tidy": false,
+      "upgrade_dependency": false,
+      "vendor": false
+    }
+  },
+  "go.useLanguageServer": true,
+  "go.buildOnSave": "off",
+  "go.lintOnSave": "off",
+  "go.vetOnSave": "off",
+  "git.ignoreLimitWarning": true,
+  "go.delveConfig": {
+
+  }
+}
