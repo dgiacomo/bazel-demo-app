@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/Shulammite-Aso/bazel-demo-app/handlers"
+	"github.com/dgiacomo/bazel-demo-app/handlers"
 	"github.com/gorilla/mux"
 )
 

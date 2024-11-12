@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Shulammite-Aso/bazel-demo-app/pkg/greetings"
+	"github.com/dgiacomo/bazel-demo-app/pkg/greetings"
 )
 
 func Greet(w http.ResponseWriter, r *http.Request) {
