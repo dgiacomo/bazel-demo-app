@@ -45,4 +45,4 @@ go_download_sdk(
 
 go_register_toolchains()
 
-gazelle_dependencies()
+gazelle_dependencies(go_sdk = "go_sdk_darwin_arm64")
