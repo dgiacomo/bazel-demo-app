@@ -7,4 +7,4 @@ export GOPACKAGESDRIVER_BAZEL="$bazel"
 
 # exec "$bazel" run -- @io_bazel_rules_go//go/tools/gopackagesdriver "${@}"
 
-exec "$bazel" run --tool_tag=gopackagesdriver -- //go/tools/gopackagesdriver "${@}"
+exec "$bazel" run --tool_tag=gopackagesdriver -- @io_bazel_rules_go//go/tools/gopackagesdriver "${@}"
