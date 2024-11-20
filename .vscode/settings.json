@@ -28,8 +28,8 @@
     }
   },
   "go.useLanguageServer": true,
-  "go.buildOnSave": "off",
   "go.lintOnSave": "off",
   "go.vetOnSave": "off",
-  "bazel.executable": "./bazel.sh"
+  "bazel.executable": "./bazel.sh",
+  "bazel.enableCodeLens": true
 }
